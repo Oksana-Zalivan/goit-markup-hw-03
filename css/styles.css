@@ -32,12 +32,19 @@ img {
     padding-right: 0;
     margin-left: auto;
     margin-right: auto;
+    padding: 0 15px 0 15px;
     display: flex;
 }
 
 .nav {
     height: 72px;
     justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.main-nav {
+    display: flex;
     align-items: center;
 }
 
@@ -50,7 +57,12 @@ img {
     letter-spacing: 0.03em;
     line-height: 1.17;
     text-transform: uppercase;
-    margin-right: 24px 76px 24px 0;
+    margin-right: 24px;
+    margin-left: 24px;
+}
+
+.logo-accent {
+    margin-right: 76px;
 }
 
 .header-logo .logo-accent {
@@ -62,8 +74,12 @@ img {
     color: #404bbf;
 }
 
-.nav-list {
-    justify-content: flex-end;
+.nav-item:not(:last-child) {
+    margin-right: 40px;
+}
+
+.nav-item {
+padding: 24px 0;
 }
 
 .nav-link {
@@ -86,6 +102,10 @@ img {
 .address {
     font-style: normal;
     justify-content: flex-end;
+}
+
+.address-list:not(:last-child) {
+    margin-right: 40px;
 }
 
 .address-link{
