@@ -78,6 +78,10 @@ a {
 .nav-list {
     display: flex;
     gap: 40px;
+    margin-left: 332px;
+}
+
+.nav-item {
     padding-top: 24px;
     padding-bottom: 24px;
 }
@@ -108,6 +112,12 @@ a {
     gap: 40px;
 }
 
+.address-list {
+    color: #434455;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    padding: 24px 0;
+}
 
 .address-list:not(:last-child) {
     margin-right: 40px;
@@ -173,11 +183,21 @@ a {
 }
 
 .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
     overflow: hidden;
 }
 
 .benefits-list {
     display: flex;
+    justify-content: space-between;
     gap: 24px;
 }
 
