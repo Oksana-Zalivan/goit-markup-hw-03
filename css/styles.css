@@ -33,7 +33,15 @@ a {
     display: block;
 }
 
+.nav {
+    height: 72px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e7e9fc;
+}
+
 .container {
+    display: flex;
     max-width: 1158px;
     margin-left: auto;
     margin-right: auto;
@@ -44,13 +52,6 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.nav {
-    height: 72px;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid #e7e9fc;
 }
 
 .main-nav {
