@@ -45,14 +45,10 @@ a {
     padding: 0 15px 0 15px;
 }
 
-.nav-conteiner {
+.nav-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.container .nav-container {
-    display: flex;
 }
 
 .main-nav {
