@@ -86,7 +86,6 @@ a {
 
 .nav-item {
     display: flex;
-    padding: 24px 0;
 }
 
 .nav-link {
@@ -96,6 +95,7 @@ a {
     font-size: 16px;
     letter-spacing: 0.02em;
     line-height: 1.5;
+    padding: 24px 0;
 }
 
 .nav-link:hover {
